@@ -1,7 +1,5 @@
 'use strict';
 
-response.setHeader("Access-Control-Allow-Origin", request.getHeader("*"));
-
 const $ = function (foo) {
     return document.getElementById(foo);    // save keystrokes
 }
