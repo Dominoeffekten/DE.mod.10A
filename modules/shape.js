@@ -4,6 +4,8 @@ const $ = function (foo) {
     return document.getElementById(foo);    // save keystrokes
 }
 
+res.setHeader('Access-Control-Allow-Origin', '*');
+
 /**
  * Shape object, parent
  */
